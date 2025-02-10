@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnicare AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #e5ddd5;
+        }
+        #chat-container {
+            width: 450px;
+            height: 600px;
+            border-radius: 10px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #chat-header {
+            background-color: #075e54;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #chat-history {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .message-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            max-width: 85%;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 75%;
+        }
+        .user {
+            align-self: flex-end;
+            background-color: #dcf8c6;
+        }
+        .bot {
+            align-self: flex-start;
+            background-color: #ececec;
+            position: relative;
+            padding-left: 40px; /* Space for bot image */
+        }
+        .bot-profile {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: -35px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #input-container {
+            display: flex;
+            padding: 10px;
+        }
+        #message-input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        #send-button {
+            margin-left: 10px;
+            padding: 10px;
+            background-color: #128c7e;
+            color: #fff;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">Pregnicare AI</div>
+        <div id="chat-history"></div>
+        <div id="input-container">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
