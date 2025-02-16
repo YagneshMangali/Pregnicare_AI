@@ -1,5 +1,9 @@
 # The Journey of PregniCare AI: A Mission to Support Mothers and Newborns  
 
+
+
+[![Watch the video](https://github.com/user-attachments/assets/6ac76ac9-7452-4217-a076-026a536f02b5)](https://www.youtube.com/watch?v=059n3il3RTg)
+
 ## 🌱 Inspiration: A Personal Connection to Motherhood  
 PregniCare AI was born from a deeply personal experience. A close friend of mine struggled during pregnancy, feeling overwhelmed by the sheer volume of information yet lacking real-time, personalized guidance. Witnessing her journey firsthand, I realized that technology—especially **Generative AI**—could bridge this gap, offering expecting mothers and new parents the support they desperately need.  
 
