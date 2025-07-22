@@ -47,3 +47,9 @@ To every expecting mother or new parent—**you are not alone**. Technology is h
 
 ---  
 *"Because every mother deserves care, and every newborn deserves love."*  
+
+
+Flask based Web application:
+![9d3b84f7-cfe5-4c98-a3a8-0848167a4cca](https://github.com/user-attachments/assets/b5ae11a1-2201-40f1-99a5-7b4f42c35c2d)
+
+
